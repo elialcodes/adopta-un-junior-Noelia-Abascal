@@ -8,8 +8,8 @@ function Header(): JSX.Element {
       </div>
       <h3>
         Hola! Mi nombre es Noelia Abascal, soy de Santander y me encantaría
-        formar parte de los grupos de trabajo de Adopta un Junior. Te muestro
-        los motivos:
+        formar parte de los grupos de trabajo de Adopta un Junior. Estos son mis
+        motivos:
       </h3>
     </header>
   );

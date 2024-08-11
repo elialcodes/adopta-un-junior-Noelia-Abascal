@@ -1,17 +1,21 @@
 interface CardProps {
   reason: {
     id: number;
-    motive: string;
+    title: string;
     description: string;
+    like: boolean;
   };
+  handleClick: (id: number) => void;
 }
 
-function Card({ reason }: CardProps): JSX.Element {
+function Card({ reason, handleClick }: CardProps): JSX.Element {
   return (
     <li className="li-card">
-      <h3>{reason.motive}</h3>
+      <h3>{reason.title}</h3>
       <p>{reason.description}</p>
-      <i className="fa-regular fa-heart"></i>
+      <button onClick={() => handleClick(reason.id)}>
+        <i id={`${reason.id}`} className="fa-regular fa-heart" />
+      </button>
     </li>
   );
 }

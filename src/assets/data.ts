@@ -25,14 +25,14 @@ export const motives: Motives = [
     id: 3,
     title: 'Quiero ser developer',
     description:
-      'Se que me voy a dedicar a ello algún día. Pero mientras a programar se aprende programando',
+      'Se que me voy a dedicar a ello algún día, pero mientras, a programar se aprende programando.',
     like: false,
   },
   {
     id: 4,
     title: 'Nunca es tarde',
     description:
-      'He reconducido mi carrera profesional con 46 años, pero nunca es tarde si lo desea con ganas',
+      'He reconducido mi carrera profesional con 46 años, pero nunca es tarde si lo desea con ganas.',
     like: false,
   },
 ];

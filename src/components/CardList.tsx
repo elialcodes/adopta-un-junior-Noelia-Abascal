@@ -1,10 +1,16 @@
+import { Link } from 'react-router-dom';
 import Card from './Card';
 import { useLikes } from '../hooks/useLikes';
 
 function CardList(): JSX.Element {
   const { reasons, handleLikedReason, totalLikes } = useLikes();
   return (
-    <div>
+    <main>
+      <h3>
+        Hola! Mi nombre es Noelia Abascal, soy de Santander y me encantaría
+        formar parte de los grupos de trabajo de Adopta un Junior. Estos son mis
+        motivos:
+      </h3>
       <ul className="list">
         {reasons.map((reason) => {
           return (
@@ -16,8 +22,15 @@ function CardList(): JSX.Element {
           );
         })}
       </ul>
-      <p>Valoraciones: {totalLikes} Me gusta</p>
-    </div>
+      <section>
+        <p>Likes: {totalLikes} Me gusta</p>
+        <div>
+          <Link to={'/valoration'}>
+            <button>Valoración final</button>
+          </Link>
+        </div>
+      </section>
+    </main>
   );
 }
 

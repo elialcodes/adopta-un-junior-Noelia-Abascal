@@ -9,8 +9,8 @@ function Evaluation({ totalLikes }: EvaluationProps): JSX.Element {
   return (
     <>
       <p>{calculateEvaluation(totalLikes)}</p>
-      <Link to="/">
-        <button>Volver</button>
+      <Link to="/" className="style-button">
+        Volver
       </Link>
     </>
   );

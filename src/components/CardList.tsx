@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MOTIVES } from '../assets/data';
 import Card from './Card';
+import '../styles/CardList.css';
 
 interface CardListProps {
   likes: boolean[];
@@ -15,11 +16,12 @@ function CardList({
 }: CardListProps): JSX.Element {
   return (
     <main>
-      <h3>
-        Hola! Mi nombre es Noelia Abascal, soy de Santander y me encantaría
-        formar parte de los grupos de trabajo de <i>Adopta un Junior</i>. Estos
-        son mis motivos:
-      </h3>
+      <h2>
+        Hola! Mi nombre es Noelia Abascal, soy de Santander.
+        <br />
+        Me encantaría formar parte de los grupos de trabajo de{' '}
+        <i>Adopta un Junior</i>, estos son mis motivos:
+      </h2>
       <ul className="list">
         {MOTIVES.map((motive, index) => {
           return (
@@ -28,6 +30,7 @@ function CardList({
               description={motive.description}
               handleClick={onLikedReason}
               id={motive.id}
+              image={motive.image}
               like={likes[index]}
               title={motive.title}
             />
@@ -35,10 +38,10 @@ function CardList({
         })}
       </ul>
       <section>
-        <p>Likes: {totalLikes} Me gusta</p>
-        <div>
-          <Link to="/evaluation">Valoración final</Link>
-        </div>
+        <h3>Likes: {totalLikes} Me gusta</h3>
+        <Link to="/evaluation" className="style-button">
+          Valoración final
+        </Link>
       </section>
     </main>
   );

@@ -1,26 +1,8 @@
 import Card from './Card';
-import { useState } from 'react';
-import { motives, Motive } from '../assets/data';
+import { useLikes } from '../hooks/useLikes';
 
 function CardList(): JSX.Element {
-  const [reasons, setReasons] = useState(motives);
-
-  const handleLikedReason = (id: number) => {
-    setReasons((prevReasons) =>
-      prevReasons.map((reason) =>
-        reason.id === id
-          ? { ...reason, like: !reason.like } // Alterna el valor de `like`
-          : reason,
-      ),
-    );
-  };
-
-  const likedReasons = (reasons: Motive[]): Motive[] => {
-    return reasons.filter((reason) => reason.like === true);
-  };
-
-  const totalLikes = likedReasons(reasons).length;
-
+  const { reasons, handleLikedReason, totalLikes } = useLikes();
   return (
     <div>
       <ul className="list">
@@ -34,6 +16,7 @@ function CardList(): JSX.Element {
           );
         })}
       </ul>
+      <p>Valoraciones: {totalLikes} Me gusta</p>
     </div>
   );
 }

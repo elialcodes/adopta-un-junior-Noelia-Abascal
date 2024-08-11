@@ -1,28 +1,18 @@
-import Heart from './Heart';
-import { reasons } from '../assets/data';
-
-interface Reason {
-  id: number;
-  motive: string;
-  description: string;
+interface CardProps {
+  reason: {
+    id: number;
+    motive: string;
+    description: string;
+  };
 }
 
-function Card(): JSX.Element {
+function Card({ reason }: CardProps): JSX.Element {
   return (
-    <div>
-      <h3>card</h3>
-      <ul>
-        {reasons.map((reason) => {
-          return (
-            <li key={reason.id}>
-              <p>{reason.motive}</p>
-              <p>{reason.description}</p>
-              <Heart />
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+    <li className="li-card">
+      <h3>{reason.motive}</h3>
+      <p>{reason.description}</p>
+      <i className="fa-regular fa-heart"></i>
+    </li>
   );
 }
 

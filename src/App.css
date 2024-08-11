@@ -4,3 +4,21 @@
   padding: 2rem;
   text-align: center;
 }
+
+.header-subtitle {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}

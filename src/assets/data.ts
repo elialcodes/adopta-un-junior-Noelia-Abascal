@@ -22,7 +22,7 @@ export const reasons: Reasons = [
     id: 3,
     motive: 'Quiero ser developer',
     description:
-      'Se que me voy a dedicar a ello algún día, igual que tú. Pero mientras a programar se aprende programando',
+      'Se que me voy a dedicar a ello algún día. Pero mientras a programar se aprende programando',
   },
   {
     id: 4,

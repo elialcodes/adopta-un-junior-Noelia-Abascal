@@ -1,23 +1,35 @@
 import { Link } from 'react-router-dom';
+import { MOTIVES } from '../assets/data';
 import Card from './Card';
-import { useLikes } from '../hooks/useLikes';
 
-function CardList(): JSX.Element {
-  const { reasons, handleLikedReason, totalLikes } = useLikes();
+interface CardListProps {
+  likes: boolean[];
+  onLikedReason(id: number): void;
+  totalLikes: number;
+}
+
+function CardList({
+  likes,
+  onLikedReason,
+  totalLikes,
+}: CardListProps): JSX.Element {
   return (
     <main>
       <h3>
         Hola! Mi nombre es Noelia Abascal, soy de Santander y me encantaría
-        formar parte de los grupos de trabajo de Adopta un Junior. Estos son mis
-        motivos:
+        formar parte de los grupos de trabajo de <i>Adopta un Junior</i>. Estos
+        son mis motivos:
       </h3>
       <ul className="list">
-        {reasons.map((reason) => {
+        {MOTIVES.map((motive, index) => {
           return (
             <Card
-              key={reason.id}
-              reason={reason}
-              handleClick={handleLikedReason}
+              key={motive.id}
+              description={motive.description}
+              handleClick={onLikedReason}
+              id={motive.id}
+              like={likes[index]}
+              title={motive.title}
             />
           );
         })}
@@ -25,9 +37,7 @@ function CardList(): JSX.Element {
       <section>
         <p>Likes: {totalLikes} Me gusta</p>
         <div>
-          <Link to={'/valoration'}>
-            <button>Valoración final</button>
-          </Link>
+          <Link to="/evaluation">Valoración final</Link>
         </div>
       </section>
     </main>

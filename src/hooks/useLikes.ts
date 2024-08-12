@@ -12,5 +12,6 @@ export function useLikes() {
     );
   }, []);
 
+  console.log(totalLikes);
   return { handleLikedReason, likes, totalLikes };
 }

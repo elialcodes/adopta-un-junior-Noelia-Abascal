@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  padding: 1rem 3rem;
+  padding: 0;
+  height: 100vh;
   text-align: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

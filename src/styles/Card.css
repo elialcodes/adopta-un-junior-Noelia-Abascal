@@ -2,33 +2,32 @@
   border: 1px solid white;
   border-radius: 1rem;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
 .card-figure {
   margin: 0;
-  width: 100%;
+  flex-shrink: 0;
 }
 
 .card-image {
   width: 100%;
-  height: auto;
   object-fit: cover;
 }
 
-.card-title {
-  padding: 0 1rem;
-}
-
-.card-text {
-  display: flex;
-  flex-direction: column;
-}
-
+.card-title,
 .card-description {
+  margin: 0;
   padding: 0 1rem;
+  flex-grow: 1;
 }
 
 .card-button {
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.card-button-like {
+  color: fuchsia;
 }

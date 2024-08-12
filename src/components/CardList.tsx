@@ -16,12 +16,12 @@ function CardList({
 }: CardListProps): JSX.Element {
   return (
     <main>
-      <h2>
-        Hola! Mi nombre es Noelia Abascal, soy de Santander.
+      <h3 className="introduce">
+        Hola! Mi nombre es Noelia Abascal y soy de Santander.
         <br />
         Me encantaría formar parte de los grupos de trabajo de{' '}
         <i>Adopta un Junior</i>, estos son mis motivos:
-      </h2>
+      </h3>
       <ul className="list">
         {MOTIVES.map((motive, index) => {
           return (
@@ -37,8 +37,8 @@ function CardList({
           );
         })}
       </ul>
-      <section>
-        <h3>Likes: {totalLikes} Me gusta</h3>
+      <section className="evaluation">
+        <h4 className="list-likes">Likes: {totalLikes} Me gusta</h4>
         <Link to="/evaluation" className="style-button">
           Valoración final
         </Link>

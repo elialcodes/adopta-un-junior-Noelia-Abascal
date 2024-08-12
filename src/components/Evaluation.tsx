@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { calculateEvaluation } from '../utils/calculateEvaluation';
+import '../styles/Evaluation.css';
 
 interface EvaluationProps {
   totalLikes: number;
@@ -8,7 +9,7 @@ interface EvaluationProps {
 function Evaluation({ totalLikes }: EvaluationProps): JSX.Element {
   return (
     <>
-      <p>{calculateEvaluation(totalLikes)}</p>
+      <p className="evaluation-result">{calculateEvaluation(totalLikes)}</p>
       <Link to="/" className="style-button">
         Volver
       </Link>

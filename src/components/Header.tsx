@@ -5,8 +5,8 @@ function Header(): JSX.Element {
     <header>
       <h1>Adopta Un Junior</h1>
       <div className="header-subtitle">
-        <h2>Participante: Noelia Abascal</h2>
-        <h2>Rol: Front-end</h2>
+        <h3>Participante: Noelia Abascal</h3>
+        <h3>Rol: Front-end</h3>
       </div>
     </header>
   );

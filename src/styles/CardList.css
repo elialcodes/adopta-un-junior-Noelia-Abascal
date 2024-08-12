@@ -1,8 +1,25 @@
+.introduce {
+  padding: 0 5rem;
+}
+
 .list {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
-  padding: 0;
+  gap: 2rem;
+  padding: 1rem 5rem;
+}
+
+.evaluation {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.list-likes {
+  margin: 0;
+  color: rgb(246, 110, 219);
 }
 
 a {

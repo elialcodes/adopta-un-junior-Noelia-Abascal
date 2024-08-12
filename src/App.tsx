@@ -1,10 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import { useLikes } from './hooks/useLikes';
 import Header from './components/Header';
 import CardList from './components/CardList';
 import Evaluation from './components/Evaluation';
 import Footer from './components/Footer';
-import { useLikes } from './hooks/useLikes';
 
 function App(): JSX.Element {
   const { handleLikedReason, likes, totalLikes } = useLikes();

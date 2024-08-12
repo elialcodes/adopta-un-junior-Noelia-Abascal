@@ -3,16 +3,14 @@ import { MOTIVES } from '../assets/data';
 
 export function useLikes() {
   const [likes, setLikes] = useState<boolean[]>(MOTIVES.map(() => false));
-  console.log(likes);
-  const totalLikes = likes.filter((v) => v).length;
-  console.log(totalLikes);
 
-  const handleLikedReason = useCallback((index: number) => {
+  const totalLikes = likes.filter((v) => v).length;
+
+  const handleLikedReason = useCallback((id: number) => {
     setLikes((prevLikes) =>
-      prevLikes.map((like, i) => (i + 1 === index ? !like : like)),
+      prevLikes.map((like, index) => (index + 1 === id ? !like : like)),
     );
   }, []);
 
-  console.log(totalLikes);
   return { handleLikedReason, likes, totalLikes };
 }

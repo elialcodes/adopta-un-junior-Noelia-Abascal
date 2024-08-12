@@ -1,7 +1,7 @@
+import '../styles/CardList.css';
 import { Link } from 'react-router-dom';
 import { MOTIVES } from '../assets/data';
 import Card from './Card';
-import '../styles/CardList.css';
 
 interface CardListProps {
   likes: boolean[];

@@ -1,5 +1,3 @@
-import '../assets/images/computer.jpg';
-
 import '../styles/Card.css';
 interface CardProps {
   description: string;

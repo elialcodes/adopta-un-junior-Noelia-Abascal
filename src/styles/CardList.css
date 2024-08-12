@@ -42,3 +42,32 @@ a:hover {
     gap: 3rem;
   }
 }
+
+@media (max-width: 767px) {
+  .introduce {
+    font-size: 0.9rem;
+    padding: 0 2rem;
+  }
+
+  .list {
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0 3rem;
+  }
+
+  .evaluation {
+    gap: 1rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    padding: 0 3rem;
+  }
+
+  .evaluation h4 {
+    font-size: 0.8rem;
+  }
+
+  .evaluation a {
+    font-size: 0.8rem;
+  }
+}

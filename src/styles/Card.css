@@ -37,3 +37,18 @@
     gap: 0;
   }
 }
+
+@media (max-width: 767px) {
+  .card-title {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .card-description {
+    font-size: 0.8rem;
+  }
+
+  .card-button {
+    margin: 1rem;
+  }
+}

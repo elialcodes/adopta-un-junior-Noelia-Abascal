@@ -14,3 +14,16 @@
 .evaluation-button {
   width: 6rem;
 }
+
+@media (max-width: 767px) {
+  .evaluation-result {
+    font-size: 1.5rem;
+    height: 50vh;
+    line-height: 2.5rem;
+    width: 60%;
+  }
+
+  .evaluation-page a {
+    font-size: 0.8rem;
+  }
+}

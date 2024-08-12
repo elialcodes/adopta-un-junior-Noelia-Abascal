@@ -17,7 +17,7 @@ function CardList({
   return (
     <main>
       <h3 className="introduce">
-        Hola! Mi nombre es Noelia Abascal y soy de Santander.
+        Hola! Soy Noelia Abascal, de Santander.
         <br />
         Me encantaría formar parte de los grupos de trabajo de{' '}
         <i>Adopta un Junior</i>, estos son mis motivos:

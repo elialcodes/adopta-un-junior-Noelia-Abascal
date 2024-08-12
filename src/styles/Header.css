@@ -11,3 +11,15 @@ h1 {
   gap: 2rem;
   justify-content: center;
 }
+
+@media (max-width: 767px) {
+  .header-subtitle {
+    flex-direction: column;
+    font-size: 0.7rem;
+    gap: 0rem;
+    margin: 1rem;
+  }
+  .header-subtitle h3 {
+    margin: 0;
+  }
+}

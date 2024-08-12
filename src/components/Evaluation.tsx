@@ -7,12 +7,12 @@ interface EvaluationProps {
 
 function Evaluation({ totalLikes }: EvaluationProps): JSX.Element {
   return (
-    <>
+    <div className="evaluation-page">
       <p className="evaluation-result">{calculateEvaluation(totalLikes)}</p>
-      <Link to="/" className="style-button">
+      <Link to="/" className="style-button evaluation-button">
         Volver
       </Link>
-    </>
+    </div>
   );
 }
 

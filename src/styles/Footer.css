@@ -1,10 +1,8 @@
 footer {
-  background-color: rgba(80, 78, 78, 0.8);
-  bottom: 0;
   display: flex;
   font-size: 0.9rem;
   gap: 1rem;
   justify-content: center;
-  position: fixed;
+  margin-top: 2rem;
   width: 100%;
 }

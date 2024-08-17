@@ -17,6 +17,10 @@
   justify-content: center;
 }
 
+.evaluation h4 {
+  color: fuchsia;
+}
+
 a {
   color: #646cff;
   font-weight: 500;

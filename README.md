@@ -18,7 +18,7 @@ Deberás tener instalado Node.js
 Clona el repositorio: 
 
 ```bash
-  git clone 
+  git clone https://github.com/elialcodes/adopta-un-junior-Noelia-Abascal.git
 ```
 
 Ve al directorio en concreto e instala las dependencias (carpeta node modules):

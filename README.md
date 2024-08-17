@@ -13,9 +13,25 @@ Vite, Node, React, TypeScrit, Prettier y ESLint.
 
 ## Implementación del proyecto
 
-Clona el proyecto
-Vete al directorio en concreto
-Instala las dependencias (carpeta node-modules) 
+Deberás tener instalado Node.js
+
+Clona el repositorio: 
+
+```bash
+  git clone 
+```
+
+Ve al directorio en concreto e instala las dependencias (carpeta node modules):
+
+```bash
+  npm install
+```
+
+Lanza el proyecto en local:
+
+```bash
+  npm run dev
+```
 
 ## Link
 🔗 https://adopta-un-junior-noelia-abascal.vercel.app/

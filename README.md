@@ -1,4 +1,4 @@
-# Proyecto Adopta un Junior - Noelia Abascal
+# Adopta un Junior - Noelia Abascal ## Rol: Front-end
 
 ### Rol: Front-end
 

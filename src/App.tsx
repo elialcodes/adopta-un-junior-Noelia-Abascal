@@ -15,13 +15,7 @@ function App(): JSX.Element {
       <Routes>
         <Route
           path="/"
-          element={
-            <CardList
-              likes={likes}
-              onLikedReason={handleLikedReason}
-              totalLikes={totalLikes}
-            />
-          }
+          element={<CardList likes={likes} onLikedReason={handleLikedReason} />}
         />
         <Route
           path="/evaluation"

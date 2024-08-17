@@ -19,8 +19,7 @@ function CardList({
       <h3 className="introduce">
         Hola! Soy Noelia Abascal, de Santander.
         <br />
-        Me encantaría formar parte de los grupos de trabajo de{' '}
-        <i>Adopta un Junior</i>, estos son mis motivos:
+        Estos son mis motivos para formar parte de <i>Adopta un Junior </i>:
       </h3>
       <ul className="list">
         {MOTIVES.map((motive, index) => {

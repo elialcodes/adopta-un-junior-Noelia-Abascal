@@ -38,7 +38,7 @@ function CardList({
         })}
       </ul>
       <section className="evaluation">
-        <h4 className="list-likes">Likes: {totalLikes} Me gusta</h4>
+        <h4>Likes: {totalLikes} Me gusta</h4>
         <Link to="/evaluation" className="style-button">
           Valoración final
         </Link>

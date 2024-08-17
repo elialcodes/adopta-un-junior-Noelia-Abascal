@@ -4,19 +4,19 @@
   align-items: center;
 }
 
-.evaluation-result {
+.evaluation-page-result {
   font-size: 3rem;
   line-height: 5rem;
   width: 60%;
   height: 40vh;
 }
 
-.evaluation-button {
+.evaluation-page-button {
   width: 6rem;
 }
 
 @media (max-width: 767px) {
-  .evaluation-result {
+  .evaluation-page-result {
     font-size: 1.5rem;
     height: 50vh;
     line-height: 2.5rem;

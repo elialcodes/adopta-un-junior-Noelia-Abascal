@@ -9,7 +9,11 @@ interface CardListProps {
   totalLikes: number;
 }
 
-function CardList({ likes, onLikedReason }: CardListProps): JSX.Element {
+function CardList({
+  likes,
+  onLikedReason,
+  totalLikes,
+}: CardListProps): JSX.Element {
   return (
     <main>
       <h3 className="introduce">
@@ -33,6 +37,7 @@ function CardList({ likes, onLikedReason }: CardListProps): JSX.Element {
         })}
       </ul>
       <section className="evaluation">
+        <h4>Likes: {totalLikes} Me gusta</h4>
         <Link to="/evaluation" className="style-button">
           Valoración final
         </Link>

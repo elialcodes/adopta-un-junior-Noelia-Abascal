@@ -6,6 +6,7 @@ import Card from './Card';
 interface CardListProps {
   likes: boolean[];
   onLikedReason(id: number): void;
+  totalLikes: number;
 }
 
 function CardList({ likes, onLikedReason }: CardListProps): JSX.Element {

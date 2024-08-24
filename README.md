@@ -9,10 +9,10 @@ Me licencié en Geografía allá por el año 2000 y, tras haber trabajado unos a
 Considero estos años muy importantes porque me han dado una trayectoria profesional y personal muy valiosa, he tenido la SUERTE de conocer y trabajar con muchos clientes y tengo compañeros que se han hecho verdaderos amigos.
 Peeeeeeero... necesitaba un cambio.
 
-Soy madre de 2 adolescentes de 14 y 16 años y hace un año noté que tenía más tiempo para mi, así que era el momento para intentar cambiar de profesión. Como me gusta aprender, empecé a estudiar programación de forma autodidacta. Me gustó y me decidí a hacer un bootcamp de programación con Adalab, una empresa que ayuda a mujeres a cambiarse al sector Tech. 
+Soy madre de 2 adolescentes de 14 y 16 años y hace un año noté que tenía más tiempo para mi, así que era el momento para intentarlo. Como me gusta aprender, empecé a estudiar programación de forma autodidacta. Me gustó y decidí a hacer un bootcamp de programación con Adalab, una empresa que ayuda a mujeres a cambiarse al sector Tech. 
 Ahí aprendí los conocimientos que me faltaban y me acostumbré a trabajar en grupo. Compartir ideas, logros y también frustraciones me pareció de lo mejor del bootcamp.
 
-Por eso me he inscrito a este proceso de selección, porque he venido a quedarme en el mundo de la programción pero estoy al principio del camino, y este se hace mejor si se comparte, por eso estos grupos de trabajo me parecen una inicitiva genial.
+Por eso me he inscrito a este proceso de selección, porque he venido a quedarme en el mundo de la programción pero estoy al principio del camino, y este se hace mejor si se comparte, por eso estos grupos de trabajo me parecen una iniciativa genial. Además, me parece que nos acerca a lo que puede ser trabajar en un proyecto real.
 
 
 ## Funcionalidades
@@ -21,15 +21,19 @@ Mi proyecto consiste en una explicación, a modo de cards, de los motivos por lo
 - El usuario puede dar "like" en las cards si comparte o le gustan mis motivos.
 - Al hacer click en el botón "Valoración final", el usuario es conducido a otra página donde se devuelve un mensaje que valora mi candidatura en función del número total de "likes" recibidos.
 
-En proyecto he trabajado con varias ramas según la funcionalidad y he hecho del deploy con Vercel.
+He trabajado con varias ramas según la funcionalidad y he hecho del deploy con Vercel.
 
 
 ## Colaboraciones
 
-En mi componente CardList.tsx (que renderiza el listado de cards) quería rendizar la prop "totalLikes" junto al link de "Valoración final".
-Esta prop refleja el número total de likes (o corazones) que el usuario me da en la lista de motivos. La idea era mostrar algo así: "Likes: 3 Me gusta". 
+En mi componente CardList.tsx (renderiza el listado de cards) quería rendizar la prop "totalLikes" junto al link de "Valoración final".
+Esta prop refleja el número total de likes (o corazones) que el usuario me da en la lista de motivos. La idea era mostrar algo así: 
 
-Así que creé una issue con un título que describía lo que deseaba hacer ("Renderizado de la props totalLikes"), pedí colaboración a un amigo programador y le indiqué los pasos a seguir:
+```bash
+  Likes: 3 Me gusta
+``` 
+
+Así que creé una issue con un título descriptivo ("Renderizado de la props totalLikes"), pedí colaboración a un amigo programador y le indiqué los pasos a seguir:
 
 - Crear una nueva rama para resolver la issue.
 - Ubicación de la issue: src => components => CardList.tsx,
@@ -45,9 +49,9 @@ Vite, Node, React, TypeScrit, Prettier y ESLint.
 
 ## Implementación del proyecto
 
-Es necesario tener instalado:
-- Node.js.
-- Prettier y EsLint (extensiones de Visual Studio Code): en las dependencias de desarrollo del proyecto están Prettier y ESLint, muy útiles para trabajar en grupo y mantener unas reglas en común de formato y de código. Pero necesitan de sus correspondientes extensiones en VSC.
+Es necesario tener instalado Node.js.
+
+En las dependencias de desarrollo del proyecto están configurados Prettier y ESLint, muy útiles para trabajar en grupo y mantener unas reglas en común de formato y de código. Aunque no es necesario, puede ser útil instalarse sus correspondientes extensiones de Visual Studio Code.
 
 Clona el repositorio: 
 

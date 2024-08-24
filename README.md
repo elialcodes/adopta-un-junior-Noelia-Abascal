@@ -6,7 +6,8 @@ Proyecto realizado para el proceso de selección de "Adopta un Junior" (2º edic
 Mi nombre es Noelia Abascal y soy de Santander. Tengo 46 años y... ¡he apostado por un cambio profesional!
 
 Me licencié en Geografía allá por el año 2000 y, tras haber trabajado unos años de ello, cambié de sector y estuve más de 20 años trabajando en atención al cliente.
-Considero estos años muy importantes, me han dado una trayectoria profesional y personal muy valiosa, pues tenido la SUERTE de conocer y trabajar con muchos clientes y tengo compañeros que se han hecho verdaderos amigos. Pero... necesitaba un cambio.
+Considero estos años muy importantes, me han dado una trayectoria profesional y personal muy valiosa, pues tenido la SUERTE de conocer y trabajar con muchos clientes y tengo compañeros que se han hecho verdaderos amigos.
+Pero... necesitaba un cambio.
 
 Soy madre de 2 adolescentes de 14 y 16 años y, hace un año, noté que tenía más tiempo para mi, así que era el momento para intentar cambiar de profesión. Me gusta aprender cosas nuevas y empecé a estudiar programación de forma autodidacta. Me gustó más de lo que me esperaba, así que me decidí a hacer un bootcamp de programación con Adalab, una empresa que ayuda a mujeres a cambiarse al sector Tech. 
 Ahí aprendí los conocimientos que me faltaban y me acostumbré a trabajar en grupo y compartir proyectos con otras compis. Compartir ideas, logros y también frustraciones me pareció de lo mejor del bootcamp.

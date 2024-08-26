@@ -1,32 +1,56 @@
 # Adopta un Junior - Rol: Front-end
 
-Proyecto realizado para el proceso de selección de los grupos de Adopta un Junior, 2 edición.
+Proyecto para el proceso de selección de "Adopta un Junior" (2º edición), donde explico mis motivos para formar parte de los grupos de trabajo.
 
 ## Motivación
-Mi nombre es Noelia Abascal y soy de Santander. Tengo 46 años y... ¡he apostado por un cambio profesional!
+
+Mi nombre es Noelia Abascal, soy de Santander, tengo 46 años y... ¡he apostado por un cambio profesional!
+
 Me licencié en Geografía allá por el año 2000 y, tras haber trabajado unos años de ello, cambié de sector y estuve más de 20 años trabajando en atención al cliente.
-Considero todos estos años muy importantes, me han dado una trayectoria profesional y personal muy valiosa, pues tenido la SUERTE de conocer y trabajar con muchos clientes y tengo compañeros que se han hecho verdaderos amigos. Pero... necesitaba un cambio.
-Soy madre de 2 adolescentes de 14 y 16 años y, hace un año, noté que tenía más tiempo para mi, así que era el momento para intentar cambiar de profesión. Empecé a estudiar programación de forma autodidacta y, como me gustó mucho, me decidí a hacer un bootcamp de programación con Adalab, una empresa que ayuda a mujeres a cambiarse al sector Tech. Ahí cogí los conocimientos que me faltaban y me acostumbré a trabajar en grupo y compartir proyectos con otras compis. Compartir ideas, logros y también frustraciones me pareció de lo mejor del bootcamp.
-Por eso me he inscrito en los grupos de trabajo de Adopta un Junior, porque quiero seguir aprendiendo
+Considero estos años muy importantes porque me han dado una trayectoria profesional y personal muy valiosa, he tenido la SUERTE de conocer y trabajar con muchos clientes y tengo compañeros que se han convertido en verdaderos amigos.
+Peeeeeeero... necesitaba un cambio.
 
+Soy madre de 2 adolescentes de 14 y 16 años y hace un año noté que tenía más tiempo para mi, así que era el momento para intentarlo. Como me gusta aprender, empecé a estudiar programación de forma autodidacta. Me gustó y decidí a hacer un bootcamp de programación con Adalab, una escuela que ayuda a mujeres a cambiarse al sector Tech.
+Ahí aprendí los conocimientos que me faltaban y me acostumbré a trabajar en grupo. Compartir ideas, logros y también frustraciones me pareció de lo mejor del bootcamp.
 
-
-donde explico por qué me encantaría formar parte de los grupos de trabajo de "Adopta un Junior". Mis motivos para ello.
-
-## Funcionalidades
-
-- El usuario puede dar "like" si comparte o le gustan mis motivos.
-- Al hacer click en el botón "Valoración final", el usuario es conducido a otra página donde se devuelve un mensaje que valora mi candidatura en función del número total de "likes" recibidos.
+Por eso me he inscrito a este proceso de selección, porque he venido a quedarme en el mundo de la programción pero estoy al principio del camino, y este se hace mejor si se comparte, por eso estos grupos de trabajo me parecen una iniciativa genial. Además, creo que nos acerca mucho a lo que puede ser trabajar en un proyecto real.
 
 ## Tecnologías
 
-Vite, Node, React, TypeScrit, Prettier y ESLint.
+En el proyecto he utilizado React, TypeScrit, Prettier, ESLint, Vite y Node.js.
+
+## Funcionalidades
+
+Mi proyecto consiste en una explicación, a modo de cards, de los motivos por los que me encantaría formar parte de estos grupos de trabajo y por qué creo que soy buena candidata.
+
+- El usuario puede dar "like" en las cards si comparte o le gustan mis motivos.
+- Al hacer click en el botón "Valoración final", el usuario es conducido a otra página donde se devuelve un mensaje que valora mi candidatura en función del número total de "likes" recibidos.
+
+He trabajado con varias ramas según la funcionalidad y he hecho del deploy con Vercel.
+
+## Colaboraciones
+
+En mi componente CardList.tsx (renderiza el listado de cards) quería rendizar la prop "totalLikes" junto al link de "Valoración final".
+Esta prop refleja el número total de likes (o corazones) que el usuario me da en la lista de motivos. La idea era mostrar algo así:
+
+"Likes: 3 Me gusta"
+
+Así que creé una issue con un título descriptivo ("Renderizado de la props totalLikes"), pedí colaboración a un amigo programador y le indiqué los pasos a seguir:
+
+- Crear una nueva rama para resolver la issue.
+- Ubicación de la issue: src => components => CardList.tsx,
+- La prop se deberá renderizar en un h4 y antes del Link.
+- No hay que preocuparse por los estilos, ya están diseñados para que el responsive quede bien.
+
+Cuando hizo su trabajo, él creó una pull request, la revisé y, como estaba todo perfecto y no había problemas de fusión, lo mergee a mi rama main.
 
 ## Implementación del proyecto
 
-Deberás tener instalado Node.js
+Es necesario tener instalado Node.js.
 
-Clona el repositorio: 
+En las dependencias de desarrollo del archivo package.json están Prettier y ESLint, muy útiles para trabajar en grupo y mantener unas reglas comunes de formato y de código. Aunque no es necesario, puede ser útil instalarse sus correspondientes extensiones en Visual Studio Code.
+
+Clona el repositorio:
 
 ```bash
   git clone https://github.com/elialcodes/adopta-un-junior-Noelia-Abascal.git
@@ -45,4 +69,5 @@ Lanza el proyecto en local:
 ```
 
 ## Link
+
 🔗 https://adopta-un-junior-noelia-abascal.vercel.app/
